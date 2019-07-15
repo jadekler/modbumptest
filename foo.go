@@ -1,3 +1,7 @@
 package foo
 
-type Foo struct{}
+import "github.com/jadekler/modbumptest/bar"
+
+type Foo struct {
+	b bar.Bar
+}
